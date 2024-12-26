@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=Raleway:wght@100&display=swap');
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0002A1;
+}
+
+form {
+    width: 90%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+form i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.input-group {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+}
+
+.input-group label {
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    width: 120px;
+}
+
+.input-group input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    padding: 8px 8px 8px 0px;
+    font-size: 14px;
+    left: 0;
+    width: 70%;
+}
+
+.input-group textarea {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    width: 190px;
+}
+
+.input-group span {
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;color: red;
+}
+
+button {
+    top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0002A1;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 5px;
+}
+
+#submit-error {
+    color: red;
+}
+
+.input-group span i {
+    color: seagreen;
+    padding: 0;
+    top: 0px;
+    font-size: 15px;
+}
