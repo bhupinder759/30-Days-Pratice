@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=Raleway:wght@100&display=swap');
+
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 450px;
+    /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(119,253,45,1) 100%); */
+    color: #fff;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search i {
+    font-size: 24px;
+    color: #555;
+    background: #ebfffc;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/* .weather {
+    transition: 0.5s;
+    animation: weather 0.5s timing-function delay iteration-count damping fill-mode;
+} */
+
+
+.weather-icon {
+    width: 170px;
+    /* margin: 30px;    */
+}
+
+.weather .temp {
+    font: 80px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20PX;
+    margin-top: 30px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.col img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 26px;
+    margin-top: -6px;
+}
+
+.more {
+    margin-left: -5px;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
